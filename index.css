@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid gray;   
+}
+
+.profile-avatar{
+    height: 50px;
+    border-radius: 50%;  
+}
+
+.logo {
+    height: 60px;    
+}
+
+.user-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    margin: 0px;
+    
+}
+
+.user-info  p {
+    padding: 2.5px;
+    margin: 0;
+}
+
+.user-details{
+    margin-left: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+main{
+     border: 5px solid black;
+     border-radius: 10px;
+     margin: 10px auto; 
+     padding: 0px;
+     max-width: 400px;
+}
+
+section{
+    padding: 30px 0px;
+    max-width: 400px;
+}
+
+.post{
+    width:100%;
+}
+
+.post-info{
+    
+    padding: 10px;
+    
+}
+
+.post-btns{ 
+     padding: 0px;
+     display: flex;
+     justify-content: flex-start;
+}
+
+button{ 
+     border: none;
+     width: 30px;
+     height: 30px;
+     margin-right: 10px;  
+}
+
+button:hover , button:active{
+    border-bottom: 1px solid grey;
+}
+
+.like-btn{
+    background: url("images/icon-heart.png");
+    background-size: cover;
+}
+
+.comment-btn{
+    background: url("images/icon-comment.png");
+    background-size: cover;
+}
+
+.dm-btn{
+    background: url("images/icon-dm.png");
+    background-size: cover;
+}
+
+.likes{
+    font-size: 13px
+}
+
+.comment{
+    font-size: 14px;
+}
